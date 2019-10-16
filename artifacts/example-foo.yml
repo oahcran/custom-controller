@@ -1,0 +1,7 @@
+apiVersion: customcontroller.kubeapps.io/v1alpha2
+kind: Foo
+metadata:
+  name: example-foo
+spec:
+  deploymentName: example-foo
+  replicas: 1
